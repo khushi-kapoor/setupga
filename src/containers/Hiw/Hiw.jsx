@@ -5,7 +5,7 @@ const Hiw = () => (
 
     <div className='hiww'>
     <div className='heading'><h1>How it works?</h1></div>
-    <br />
+    
     <div className='boxii'>
     <ul>
       <li>

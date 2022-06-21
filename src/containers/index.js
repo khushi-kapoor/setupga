@@ -9,3 +9,4 @@ export { default as Testimonial } from './Testimonial/Testimonial';
 export { default as Pricing} from './Pricing/Pricing';
 export { default as Beechka} from './Beechka/Beechka';
 export { default as Hiw} from './Hiw/Hiw';
+export { default as Uga} from './Uga/Uga';

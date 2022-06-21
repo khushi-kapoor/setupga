@@ -59,7 +59,7 @@
     font-family: var(--font-family);
     font-size: 28px;
     color: #F76922;
-    padding: 30px;
+    padding: 10px;
 }
 .boxii ul li .date {
   --dateH: 3rem;
