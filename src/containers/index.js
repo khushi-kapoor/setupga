@@ -6,3 +6,6 @@ export { default as Possibility } from './possibility/Possibility';
 export { default as WhatGPT3 } from './whatGPT3/WhatGPT3';
 export { default as Accordion } from './Accordion/FAQ';
 export { default as Testimonial } from './Testimonial/Testimonial';
+export { default as Pricing} from './Pricing/Pricing';
+export { default as Beechka} from './Beechka/Beechka';
+export { default as Hiw} from './Hiw/Hiw';
