@@ -4,7 +4,7 @@ import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
 import { Data } from './Data';
 import faqq from './faq.svg';
-
+import  './faq.css';
 
 const AccordionSection = styled.div`
   display: flex;
@@ -32,8 +32,6 @@ const Faqq = styled.div`
   align-items: flex-start;
   
 
-  
-
  
 `;
 const Container = styled.div`
@@ -56,7 +54,7 @@ const Wrap = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 600px;
   
   cursor: pointer;
   border: 1px solid #000;
@@ -78,8 +76,8 @@ const Wrap = styled.div`
 const Dropdown = styled.div`
   background: #fff;
   color: #000;
-  width: 100%;
-  position: relative;
+  width: 600px;
+  
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -112,7 +110,7 @@ function Accordion() {
       <IconContext.Provider value={{ color: '#000', size: '25px' }}>
         <AccordionSection className="accordion">
           <Faqq>
-          <img src={faqq} alt="gpt3_logo"  />
+         <div className='imma'><img src={faqq} alt="gpt3_logo"  /></div>
           <Container>
             {Data.map((item, index) => (
               <>

@@ -3,7 +3,7 @@ import './Testimonial.css';
 import { FaStar} from 'react-icons/fa';
 
 const Testimonial = () => (
-    <div className="testimonials">
+    <div className="testimonials" id='testimonial'>
     <div className="testimonial-inner">
       <h1>Our clients love us!</h1>
       <div className="border" />

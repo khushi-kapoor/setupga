@@ -1,6 +1,5 @@
 import React from 'react';
-import people from '../../assets/people.png';
-import ai from '../../assets/ai.png';
+
 import './header.css';
 
 const Header = () => (
@@ -13,7 +12,7 @@ const Header = () => (
 
       <div className="gpt3__header-content__input">
         
-        <button type="button">LEARN MORE</button>
+      <a href="#pws"><button type="button">LEARN MORE</button></a>
         <button type="button" id="bb">CONTACT US</button>
       </div>
 

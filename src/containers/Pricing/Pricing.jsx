@@ -8,7 +8,7 @@ import or from './4.svg';
 
 const Pricing = () => (
   
-    <section className="pricing-section">
+    <section className="pricing-section" id='pricing' >
         <div className="containers">
           <div className="sec-title text-center">
             <span className="title">Get plan</span>

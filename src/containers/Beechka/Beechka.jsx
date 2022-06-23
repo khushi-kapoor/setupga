@@ -3,7 +3,7 @@ import beechka from './beechka.png';
 import './beechka.css';
 
 const Beechka = () => (
-  <div className="gpt3__header section__padding" id="pricing">
+  <div className="gpt3__header section__padding" >
     <div className="bka">
       <img src={beechka} />
     </div>
@@ -12,7 +12,7 @@ const Beechka = () => (
       <p>Make decisions based on accurate data. Our clients see improved data analytic results, guaranteed.</p>
       <div className="gpt3__header-content__input">
         
-        <button type="button">See Pricing</button>
+      <a href="#pricing"><button type="button">See Pricing</button></a>
       </div>
 
       

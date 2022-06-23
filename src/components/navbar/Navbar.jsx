@@ -15,8 +15,8 @@ const Navbar = () => {
         <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">Reviews</a></p>
-          <p><a href="#possibility">Pricing</a></p>
+          <p><a href="#testimonial">Reviews</a></p>
+          <p><a href="#pricing">Pricing</a></p>
           <p><a href="#features">Contact</a></p>
           
         </div>
@@ -33,8 +33,8 @@ const Navbar = () => {
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
-            <p><a href="#wgpt3">Reviews</a></p>
-            <p><a href="#possibility">Pricing</a></p>
+            <p><a href="#testimonial">Reviews</a></p>
+            <p><a href="#pricing">Pricing</a></p>
             <p><a href="#features">Contact</a></p>
             
           </div>
