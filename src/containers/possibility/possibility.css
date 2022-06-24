@@ -14,6 +14,11 @@
     width: 80%;
 }
 
+.outer{
+    display: flex;
+    flex-direction: row;
+
+}
 
 
 .gpt3__possibility-content {
@@ -29,8 +34,8 @@
 .gpt3__possibility-content h4 {
     font-family: var(--font-family);
     font-weight: 1000;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 40px;
     color: #ff8A71;
 }
 
@@ -42,8 +47,8 @@
     color: black;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 40px;
 
 }
 

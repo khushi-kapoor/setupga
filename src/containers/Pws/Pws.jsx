@@ -18,7 +18,7 @@ const Pws = () => (
       </div>
       
       <div className="title">GA 4 Migration</div>
-      <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit?</div>
+      <div className="descr">Google has announced that Universal Analytics will stop processing data from July 2023 onwards. Google Analytics 4 will be the only version of Google analytics working in the future</div>
      
     </li>
     <li>

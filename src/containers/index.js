@@ -12,3 +12,4 @@ export { default as Hiw} from './Hiw/Hiw';
 export { default as Uga} from './Uga/Uga';
 export { default as Pws} from './Pws/Pws';
 export { default as Support} from './Support/Support';
+export { default as ContactForm} from './ContactForm/ContactForm';

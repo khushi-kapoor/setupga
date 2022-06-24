@@ -40,7 +40,7 @@ const Navbar = () => {
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
             
-            <button type="button">Get Started</button>
+          <a href="#pricing"><button type="button">GET STARTED</button></a>
           </div>
         </div>
         )}
