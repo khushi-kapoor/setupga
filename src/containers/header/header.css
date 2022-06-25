@@ -175,12 +175,18 @@
 
 @media screen and (max-width: 490px) {
     .gpt3__header-content h1 {
-        font-size: 36px;
+        font-size: 28px;
+        line-height: 35px;
+        padding-right: 50px;
+    }
+    .gpt3__header-content h2 {
+        font-size: 40px;
         line-height: 48px;
+        padding-right: 50px;
     }
 
     .gpt3__header-content p {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 24px;
     }
 
@@ -188,5 +194,12 @@
     .gpt3__header-content__input button {
         font-size: 16px;
         line-height: 16px;
+        width: 150px;
+    }
+
+    #bb {
+        font-size: 16px;
+        line-height: 16px;
+        width: 150px;
     }
 }

@@ -13,7 +13,7 @@ const ContactForm = () => (
               <div className="col-md-10">
                 <div className="contact_form_inner">
                   <div className="contact_field">
-                    <h3>Contatc Us</h3>
+                    <h3>Contact Us</h3>
                     <p>Feel Free to contact us any time. We will get back to you as soon as we can!.</p>
                     <form action="https://public.herotofu.com/v1/7325f8b0-f359-11ec-8ed8-456386acdd98" method="post">
                     <div className='bon'>
@@ -31,13 +31,7 @@ const ContactForm = () => (
               </div>
               <div className="col-md-2">
                 <div className="right_conatct_social_icon d-flex align-items-end">
-                  <div className="socil_item_inner d-flex">
-                  <div className="gpt3__footer-social">
-                    <li><a href="#"><div className='each'><FaFacebook /></div></a></li>
-                    <li><a href="#"><div className='each'><FaTwitter /></div></a></li>
-                    <li><a href="#"><div className='each'><FaLinkedin /></div></a></li>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -52,28 +46,22 @@ const ContactForm = () => (
                 <span>info@flightmantra.com</span>
               </div>
               
+              <div className="d-flex info_single align-items-center">
+                <div className='socia'>
+                    <a href="#"><div className='each'><FaFacebook /></div></a>
+                    <a href="#"><div className='each'><FaTwitter /></div></a>
+                    <a href="#"><div className='each'><FaLinkedin /></div></a>
+                    </div>
+                    </div>
+                  
+              
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section className="map_sec">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-10 offset-md-1">
-          <div className="map_inner">
-            <h4>Find Us on Google Map</h4>
-            <br />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quo beatae quasi assumenda, expedita aliquam minima tenetur maiores neque incidunt repellat aut voluptas hic dolorem sequi ab porro, quia error.</p>
-            <div className="map_bind">
-            <iframe src="https://www.google.com/maps/d/embed?mid=1r6vDdBdPn1j8kIdcXsOgTjuo5ts&ehbc=2E312F" width= "100%" height="480"  allowFullScreen aria-hidden="false" tabIndex={0} ></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 </div>
 );
 

@@ -47,4 +47,19 @@ color: #F76922;
     font-size: 15px;
 }
 
+@media screen and (max-width: 400px){
+	.hea h1
+	{
+	   font-weight: 700;
+   font-size: 36px;
+   line-height: 40px;
+   /* identical to box height, or 120% */
+   
+   text-align: center;
+   font-weight: 700;
+   color: #F76922;
+	  
+   }
+}
+
 

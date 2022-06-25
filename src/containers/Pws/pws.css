@@ -9,31 +9,31 @@
 }
 
 .imm{
-  padding-top: 12px;
+  padding-top: 9px;
 }
 
 .p{
-  background-color: rgb(249, 243, 188);
+  background-color: rgb(225, 225, 225);
   border-radius: 50%;
 }
 .q{
-  background-color: #f2b5d1;
+  background-color: rgb(225, 225, 225);
   border-radius: 50%;
 }
 .r{
-  background-color: rgb(195, 249, 194);
+  background-color: rgb(225, 225, 225);
   border-radius: 50%;
 }
 .s{
-  background-color: rgb(242, 183, 223);
+  background-color: rgb(225, 225, 225);
   border-radius: 50%;
 }
 .t{
-  background-color: rgb(219, 255, 127);
+  background-color: rgb(225, 225, 225);
   border-radius: 50%;
 }
 .u{
-  background-color: rgb(175, 211, 247);
+  background-color: rgb(225, 225, 225);
   border-radius: 50%;
 }
 

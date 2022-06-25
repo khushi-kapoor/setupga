@@ -61,14 +61,15 @@
     background: linear-gradient(84.95deg, #270082 -1.75%, #2A95DD 93.84%);
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 25px;
     border: none;
     outline: none;
     cursor: pointer;
     border-radius: 12px;
-    width: 179px;
+    width: 140px;
     height: 55px;
+    
 
 }
 

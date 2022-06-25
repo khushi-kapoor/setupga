@@ -220,12 +220,15 @@
     }
     .list {
         position: relative;
-        min-width: 350px;
+        min-width: 300px;
         padding: 10px;
         background:  #F76922;
     
         box-shadow: 0 35px 50px rgba(0, 0, 0, 0.1);
       }
+
+      
+
 
 }
 
