@@ -1,4 +1,4 @@
-.gpt3__header {
+.dog {
     display: flex;
     flex-direction: row;
 }
@@ -78,13 +78,24 @@
 
 @media screen and (max-width: 490px) {
     .bbb h1 {
-        font-size: px;
-        line-height: 48px;
+        font-size: 30px;
+        line-height: 32px;
+        
     }
 
     .bbb p {
         font-size: 14px;
         line-height: 24px;
+    }
+
+    .dog{
+        display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    }
+
+    .bbb{
+        padding-left: 30px;
     }
 
 

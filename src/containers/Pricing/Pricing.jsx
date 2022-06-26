@@ -11,7 +11,7 @@ const Pricing = () => (
     <section className="pricing-section" id='pricing' >
         <div className="containers">
           <div className="sec-title text-center">
-            <span className="title">Get plan</span>
+            
             <h2>Analytics for every plan</h2>
           </div>
           <div className="outer-box">

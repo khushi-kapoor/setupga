@@ -21,9 +21,7 @@ const AccordionSection = styled.div`
   border-radius: 24px;
   
 
-  @media (max-width: 768px) {
-    height: 200vh;
-  }
+  
 `;
 
 const Faqq = styled.div`

@@ -3,7 +3,8 @@ import beechka from './beechka.png';
 import './beechka.css';
 
 const Beechka = () => (
-  <div className="gpt3__header section__padding" >
+  <div className='dog'>
+  
     <div className="bka">
       <img src={beechka} />
     </div>
@@ -19,6 +20,7 @@ const Beechka = () => (
     </div>
 
     
+  
   </div>
 );
 

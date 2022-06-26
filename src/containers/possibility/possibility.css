@@ -123,6 +123,7 @@
         flex-direction: column;
         padding-left: 30px;
         width: 100%;
+        padding-bottom: 70px;
     }
     .gpt3__possibility-content p {
         color: black;

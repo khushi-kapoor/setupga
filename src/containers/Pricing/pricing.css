@@ -37,6 +37,7 @@ height: auto;
 .sec-title{
 position:relative;
 margin-bottom:70px;
+
 }
 
 .sec-title .title{
@@ -341,5 +342,12 @@ color:#ff750b;
 background:none;
 border-radius:0px;
 border-color:#ff750b;
+}
+
+@media screen and (max-width: 400px) {
+    .sec-title h2{
+       text-align: center;
+        
+        }
 }
 

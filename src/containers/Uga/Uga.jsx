@@ -5,7 +5,7 @@ import c2 from './c2.png';
 import './uga.css';
 
 const Uga = () => (
-    <div>
+    <div className='pig'>
     <div className='hea'>
       <h1> Unlock the full potential of <br/> Google Analytics.</h1>
       </div>

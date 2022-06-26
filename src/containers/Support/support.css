@@ -203,21 +203,28 @@
         flex-direction: column;
         justify-content: flex-start;
         font-size: 30px;
-        
-        text-align: left;
+        line-height: 30px;
+        text-align: center;
+        padding-left: 20px;
 
     }
 
     .sup p {
         font-size: 14px;
         line-height: 24px;
+        text-align: center;
     }
     
     .he {
-        display: flex;
-        flex-direction: column;
-       
-    }
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      margin-bottom: 90px;
+  }
+
+  .sup h2 {
+   padding-left: 40px;
+}
     .list {
         position: relative;
         min-width: 300px;

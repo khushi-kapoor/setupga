@@ -60,6 +60,7 @@
     font-size: 28px;
     color: #F76922;
     padding: 10px;
+    font-weight: 800;
 }
 .boxii ul li .date {
   --dateH: 3rem;
@@ -70,7 +71,7 @@
   background: linear-gradient(69.07deg, #270082 4.78%, #2A95DD 100%);
 
   color: white;
-  font-size: 1.25rem;
+  font-size: 15px;
   font-weight: 700;
 
   display: grid;
