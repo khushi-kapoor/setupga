@@ -116,8 +116,37 @@
 
 @media screen and (max-width: 700px) {
     
-   
-    .contact_us{
+    .contact_info_sec {
         display: none;
+        
     }
+
+    .contact_form_inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 200px;
+    }
+
+    .contact_us{
+        background-color: white
+       
+    }
+
+    .contact_inner{
+        background-color: #fff;
+       
+        
+    }
+
+    .contact_field .form-control{
+        border-radius: 0px;
+        border: none;
+        background-color: white;
+    }
+
+    .right_conatct_social_icon{
+        display: none;
+   }
 }
