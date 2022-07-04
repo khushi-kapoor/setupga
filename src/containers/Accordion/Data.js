@@ -17,7 +17,7 @@ export const Data = [
     {
       question: 'How and when should I pay for the service?',
       answer:
-        'TThe entire amount for the plan must be paid in advance before we start the service.'
+        'The entire amount for the plan must be paid in advance before we start the service.'
     },
     {
       question: 'How will will it take to show data in the reports?',

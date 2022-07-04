@@ -3,11 +3,12 @@ import './hiw.css';
 
 const Hiw = () => (
   
-  <div className="timeline">
+  <div className="timeline"> 
     <h1>Line of Action</h1>
   <div className="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
     
     <div className="timeline__event__content ">
+    
       <div className="timeline__event__title">
         Opt for a package
       </div>

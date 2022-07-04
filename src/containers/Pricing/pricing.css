@@ -1,5 +1,6 @@
 
 
+
 a:hover,
 a:focus,
 a:active {
@@ -227,7 +228,7 @@ font-style: normal;
 font-variant: normal;
 text-rendering: auto;
 line-height: 1;
-
+content: "Y";
 font-family: var(--font-family);
 margin-top: -8px;
 }
@@ -238,7 +239,7 @@ margin-top: -8px;
 }
 .pricing-block .features li.false:before{
 color: #e1137b;
-content: "\f057";
+content: "X";
 }
 
 .pricing-block .features li a{
@@ -354,6 +355,10 @@ border-radius:0px;
     .sec-title h2{
        text-align: center;
         
+        }
+
+        .pricing-section{
+            overflow: hidden;
         }
 }
 

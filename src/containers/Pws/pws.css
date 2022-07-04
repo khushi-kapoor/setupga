@@ -1,138 +1,70 @@
 
-
-
-.imm{
-  padding-top: 9px;
-}
-
-.p{
-  background-color: rgb(225, 225, 225);
-  border-radius: 50%;
-}
-.q{
-  background-color: rgb(225, 225, 225);
-  border-radius: 50%;
-}
-.r{
-  background-color: rgb(225, 225, 225);
-  border-radius: 50%;
-}
-.s{
-  background-color: rgb(225, 225, 225);
-  border-radius: 50%;
-}
-.t{
-  background-color: rgb(225, 225, 225);
-  border-radius: 50%;
-}
-.u{
-  background-color: rgb(225, 225, 225);
-  border-radius: 50%;
-}
-
-imm
-.poora {
-  --color: rgba(30, 30, 30);
-  --bgColor: rgba(245, 245, 245);
-  min-height: 100vh;
-  display: grid;
-  align-content: center;
-  
-  font-family: "Jura", sans-serif;
-  color: var(--color);
-  background: var(--bgColor);
-}
-
-.poora h1 {
-  text-align: center;
-  color:  #F76922;
-  font-size: 50px;
-  padding-bottom: 30px;
-}
-
-.poora ul {
-  width: 80%;
-  margin-inline: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  justify-content: center;
-  gap: 2rem;
-  list-style: none;
-}
-
-.poora ul li {
-  max-width: 12rem;
-  justify-self: center;
-  display: grid;
-  grid-template:
-    "icon"
-    "line"
-    "dot"
-    "title"
-    "descr" 1fr;
-  justify-items: center;
-  align-items: flex-start;
-  text-align: center;
-}
-
-.poora ul li .icon {
-  grid-area: icon;
-  width: 6rem;
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
-  color: white;
-  font-size: 2.5rem;
-  border: 0.4rem solid var(--bgColor);
-  border-radius: 50%;
-  background: var(--accent-color);
-  box-shadow: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.45),
-    inset -0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.45);
-}
-
-.poora ul li::before {
-  content: "";
-  grid-area: line;
-  height: 2rem;
-  border-right: 2px dotted currentColor;
-}
-
-.poora ul li::after {
-  content: "";
-  grid-area: dot;
-  width: 1rem;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: var(--accent-color);
-  justify-self: center;
-  margin-bottom: 0.5rem;
-}
-
-.poora ul li .title {
-  grid-area: title;
-  margin-block: 0.5rem;
-  font-size: 1.3rem;
-  font-weight: 600;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-@media screen and (max-width: 400px) {
+.card-container {
+	align-items: start;
+	display: grid;
+	grid-gap: 16px;
+	grid-template-columns: repeat(auto-fit, 300px);
+	justify-content: center;
     
-  .poora h1 {
-    text-align: center;
-    color:  #F76922;
-    font-size: 50px;
-    padding-bottom: 80px;
-    font-weight: 800;
-    font-size: 36px;
-   line-height: 40px;
-   font-family: var(--font-family);
-  
 }
 
-.poora{
-  padding-bottom: 90px;
+
+
+
+.hea
+ {
+	font-weight: 800;
+font-size: 25px;
+line-height: 50px;
+/* identical to box height, or 120% */
+font-family: var(--font-family) ;
+text-align: center;
+font-weight: 700;
+color: #F76922;
+    padding: 50px;
+    margin-bottom: 10px;
 }
+
+.cardi {
+    
+
+	background: white;
+	border-radius: 5px;
+	height: 250px;
+	padding: 30px;
+	text-align: left;
+	
 }
+
+.cardi h1{
+   
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.cardi p{
+   
+  
+    font-size: 15px;
+}
+
+@media screen and (max-width: 400px){
+	.hea h1
+	{
+	   
+   font-size: 36px;
+   line-height: 40px;
+   /* identical to box height, or 120% */
+   
+   text-align: center;
+   font-weight: 800;
+   color: #F76922;
+   font-family: var(--font-family) ;
+   }
+
+   .pig{
+	padding-bottom: 100px;
+    overflow: hidden;
+   }
+}
+
 

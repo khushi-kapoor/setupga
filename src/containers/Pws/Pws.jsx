@@ -8,64 +8,47 @@ import se from './6.png';
 import './pws.css';
 
 const Pws = () => (
-  <div className='poora' id='pws'>
-  <h1>Problems we solve</h1>
-  <ul>
-    <li>
-      <div className='p'>
-      
-      <div className="icon" > <div className='imm'><img src={pe} /></div></div>
+  <div className='pig'>
+    <div className='hea'>
+      <h1> Problems we solve</h1>
       </div>
-      
-      <div className="title">GA 4 Migration</div>
-      <div className="descr">Google has announced that Universal Analytics will stop processing data from July 2023 onwards. Google Analytics 4 will be the only version of Google analytics working in the future</div>
-     
-    </li>
-    <li>
-    <div className='q'>
-    <div className="icon" > <div className='imm'><img src={du} /></div></div>
+    <div className="card-container">
+      <div className="cardi">
+      <img src={pe} alt="c1" />
+        <h1>GA4 Migration</h1>
+        <p>Universal Analytics is being sunset in 2022. Get the benefits of GA4 now, set up the right way.</p>
       </div>
-      <div className="title">Missing Reports</div>
-      <div className="descr">Sometimes advertisers who have linked their accounts to Analytics cannot see their campaign reports. Resolve this issue with us.</div>
-    </li>
-    <li >
-    <div className='r'>
-    <div className="icon" > <div className='imm'><img src={te} /></div></div>
+      <div className="cardi">
+      <img src={du} alt="c2" />
+        <h1>Missing Reports</h1>
+        <p>Sometimes advertisers who have linked their accounts to Analytics are unable to see their campaign reports. </p>
       </div>
-      <div className="title">Inaccurate Data</div>
-      <div className="descr">
-Spams and Tracking systems can be a lot to take in. Set up GA4 correctly and track up to 95% accurate users and precise data. 
-</div>
-    </li>
-    <li>
-    <div className='s'>
-    <div className="icon" > <div className='imm'><img src={ch} /></div></div>
+      <div className="cardi">
+      <img src={te} alt="c3" />
+        <h1>Inaccurate Data</h1>
+        <p>Spams and Tracking systems can be a lot to take in. Set up GA4 correctly and track upto 95% accurate users and precise data. </p>
       </div>
-      <div className="title">GDPR Compliance</div>
-      <div className="descr">
-By default, Google Analytics is not GDPR compliant. Protect your user's privacy using GDPR and automate the whole process. 
-</div>
-    </li>
-    <li>
-    <div className='t'>
-    <div className="icon" > <div className='imm'><img src={pa} /></div></div>
+    </div>
+<br/>
+    <div className="card-container">
+      <div className="cardi">
+      <img src={ch} alt="c1" />
+        <h1>GDPR Compliance</h1>
+        <p>By default, Google Analytics is not GDPR compliant. Protect your users privacyprivacy use GDPR and automate the whole process. </p>
       </div>
-      <div className="title">Conversion Tracking</div>
-      <div className="descr">
-Add value to your business by adding goals and events and ensure you are tracking every conversion that is important
-</div>
-    </li>
-    <li >
-    <div className='u'>
-      <div className="icon" > <div className='imm'><img src={se} /></div></div>
+      <div className="cardi">
+      <img src={pa} alt="c2" />
+        <h1>Conversion Tracking</h1>
+        <p>Add value to your business by adding goals and events and ensure you are tracking every conversion.</p>
       </div>
-      <div className="title">Pixel Issues</div>
-      <div className="descr">A tracking pixel is a piece of code that, when embedded on your website Sometimes advertisers who have linked their accounts to Analytics are unable to see their campaign reports. 
-</div>
-    </li>
-  </ul>
+      <div className="cardi">
+      <img src={se} alt="c3" />
+        <h1>Pixel Issues</h1>
+        <p>A tracking pixel is a piece of code that, when embedded on your websites and when linked to Analytics, sometimes campaign reports are not available </p>
+      </div>
+    </div>
+  </div>
   
-</div>
   );
 
 export default Pws;

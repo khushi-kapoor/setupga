@@ -130,4 +130,7 @@
         font-size: 27px;
         line-height: 38px;
     }
+    .gpt3__footer{
+        overflow: hidden;
+    }
 }

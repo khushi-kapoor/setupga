@@ -1,10 +1,10 @@
 import React from 'react';
 import './pricing.css';
 import gg from './1.svg';
-import bl from './2.svg';
-import ye from './3.svg';
+import ye from './2.svg';
+import bl from './3.svg';
 import or from './4.svg';
-import tru from './tru.svg';
+
 
 
 

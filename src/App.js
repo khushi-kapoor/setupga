@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Footer, Accordion, Blog, Possibility, Features, WhatGPT3, Header, Testimonial, Pricing, Beechka, Hiw ,Uga, Pws,Support, ContactForm } from './containers';
+import { Footer, Accordion, Possibility,Ques, Header, Testimonial, Pricing, Beechka, Hiw ,Uga, Pws,Support, ContactForm } from './containers';
 import { CTA, Brand, Navbar } from './components';
 
 import './App.css';
@@ -21,6 +21,7 @@ const App = () => (
     <Pricing/>
     <Testimonial/>
     <Accordion />
+    <Ques/>
     <CTA/>
     <ContactForm/>
     <Footer />

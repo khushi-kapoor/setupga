@@ -173,7 +173,10 @@
     }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 400px) {
+    .gpt3__header{
+        overflow: hidden;
+    }
     .gpt3__header-content h1 {
         font-size: 28px;
         line-height: 35px;

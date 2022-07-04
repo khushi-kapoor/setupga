@@ -76,7 +76,7 @@
    
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 400px) {
     .bbb h1 {
         font-size: 30px;
         line-height: 32px;
@@ -96,6 +96,10 @@
 
     .bbb{
         padding-left: 30px;
+    }
+
+    .dog{
+        overflow-x: hidden;
     }
 
 
