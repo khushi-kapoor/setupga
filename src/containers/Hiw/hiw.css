@@ -117,13 +117,18 @@
 @media (max-width: 400px) {
   .timeline__event {
     flex-direction: column;
+    
   }
   .timeline__event__icon {
     border-radius: 4px 4px 0 0;
   }
 
-  .timeline{
-    padding-left: 30px;
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    
+    
     
   }
 
@@ -138,4 +143,12 @@
    font-family: var(--font-family);
   
 }
+
+.timeline__event:after {
+display: none;
+}
+
+
+
+
 }

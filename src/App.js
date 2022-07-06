@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Footer, Accordion, Possibility,Ques, Header, Testimonial, Pricing, Beechka, Hiw ,Uga, Pws,Support, ContactForm } from './containers';
-import { CTA, Brand, Navbar } from './components';
+import { CTA, Navbar } from './components';
 
 import './App.css';
 
